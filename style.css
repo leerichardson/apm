@@ -1,0 +1,71 @@
+body { 
+ 	font: 14px/1.4 Georgia, Serif; 
+    background:white;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#page-wrap {
+  margin: 20px;
+}
+
+#buttons form {
+	display:inline-block;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+.description {
+	text-align: center;
+	font: 20px/1.4 Georgia, Serif; 
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+table {
+   margin-top: 10px;
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	background: lightgray;
+	color: black;
+	text-align: left; 
+	font: 14px;
+	padding: 6px; 
+   	border: 1px solid black;
+}
+
+tr {
+	padding: 6px; 
+	background: white; 
+	text-align: left;
+}
+
+th.des:after {
+	content: "\21E9";
+}
+
+th.aes:after {
+	content: "\21E7";
+}
+
+img {
+    max-width: 100%;
+  	height: auto;
+}
